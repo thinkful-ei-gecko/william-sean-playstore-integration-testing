@@ -43,4 +43,4 @@ app.get('/apps', (req,res) => {
   res.json(filteredApps);
 });
 
-app.listen(8000, () => console.log('Server is listening on 8000'));
+module.exports = app;
